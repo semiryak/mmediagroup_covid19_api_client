@@ -1,0 +1,95 @@
+{
+	"info": {
+		"_postman_id": "da11a7c8-ffb4-44ad-ad32-bbda05e312b3",
+		"name": "mmediagroup_covid19",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "4186532"
+	},
+	"item": [
+		{
+			"name": "v1/cases",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.mmediagroup.fr/v1/cases?country=Kazakhstan",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"mmediagroup",
+						"fr"
+					],
+					"path": [
+						"v1",
+						"cases"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Kazakhstan"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v1/history",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.mmediagroup.fr/v1/history?country=Kazakhstan&status=confirmed",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"mmediagroup",
+						"fr"
+					],
+					"path": [
+						"v1",
+						"history"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Kazakhstan"
+						},
+						{
+							"key": "status",
+							"value": "confirmed"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "v1/vaccines",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://covid-api.mmediagroup.fr/v1/vaccines?country=Kazakhstan",
+					"protocol": "https",
+					"host": [
+						"covid-api",
+						"mmediagroup",
+						"fr"
+					],
+					"path": [
+						"v1",
+						"vaccines"
+					],
+					"query": [
+						{
+							"key": "country",
+							"value": "Kazakhstan"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
