@@ -26,10 +26,11 @@ public class TextReport implements Report {
 
     @Override
     public void build() {
-        StringBuilder stringReport = new StringBuilder(this.text);
+        StringBuilder stringReport = new StringBuilder();
         stringReport.append(this.casesPartReportBuild());
         stringReport.append(this.vaccinesPartReportBuild());
         stringReport.append(this.historyPartReportBuild());
+        this.text = stringReport.toString();
     }
 
     private String casesPartReportBuild() {
