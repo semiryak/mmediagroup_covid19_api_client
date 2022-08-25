@@ -14,3 +14,9 @@ At first generate the JAR by executing:
 ```shell
 mvn -P prod clean package
 ```
+
+Start app
+
+```shell
+java -jar target/console_app-1.0-SNAPSHOT.jar
+```
