@@ -16,7 +16,7 @@ public class CasesApi extends ApiClient {
 
     private String nameCountry;
 
-    public CasesApi(String nameCountry) {
+    public CasesApi(String nameCountry) throws ApiException {
         super();
         this.nameCountry = nameCountry;
     }

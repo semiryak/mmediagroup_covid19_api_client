@@ -17,7 +17,7 @@ public class HistoryApi extends ApiClient {
     private String nameCountry;
     private String nameStatus;
 
-    public HistoryApi(String nameCountry, String nameStatus) {
+    public HistoryApi(String nameCountry, String nameStatus) throws ApiException {
         super();
         this.nameCountry = nameCountry;
         this.nameStatus = nameStatus;

@@ -15,7 +15,7 @@ public class VaccinesApi extends ApiClient {
 
     private String nameCountry;
 
-    public VaccinesApi(String nameCountry) {
+    public VaccinesApi(String nameCountry) throws ApiException {
         super();
         this.nameCountry = nameCountry;
     }

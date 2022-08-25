@@ -1,14 +1,11 @@
 package kz.vissayev.mmediagroup.covid19.client.console;
 
-import kz.vissayev.mmediagroup.covid19.client.Configuration;
 import kz.vissayev.mmediagroup.covid19.client.ConsolePrint;
 import kz.vissayev.mmediagroup.covid19.client.TextReport;
 import kz.vissayev.mmediagroup.covid19.client.api.ApiException;
 import kz.vissayev.mmediagroup.covid19.client.api.CasesApi;
 import kz.vissayev.mmediagroup.covid19.client.api.HistoryApi;
 import kz.vissayev.mmediagroup.covid19.client.api.VaccinesApi;
-
-import java.io.IOException;
 
 import java.util.Scanner;
 
